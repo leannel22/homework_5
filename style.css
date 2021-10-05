@@ -89,6 +89,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-right: 1em;
 }
 
 .logo {
@@ -96,10 +97,19 @@ h1 {
     padding: 1em;
 }
 
-/* .navTab {
+.icon {
+    max-width: 24px;
+}
 
+.nav-tab {
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 3em;
+}
 
-} */
+.nav-tab-active {
+    color:#E18580
+}
 
 
 /* 🍱 Spacing and layout */
@@ -110,11 +120,11 @@ h1 {
 }
 
 .flex-item {
-margin-right: 3rem;
-padding-bottom: 3rem;
-padding-right: 0rem;
+    margin-right: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 0rem;
 }
 
 .inline-images {
-margin-right: 3rem;
+    margin-right: 3rem;
 }
