@@ -1,0 +1,120 @@
+/* You can use element, id, or class selectors to create your styles */
+
+/* 🌱 Body and main content */
+body{
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins, sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px; /* or 160% */
+    letter-spacing: 0.03em;
+  }
+
+img {
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.img-smaller {
+    align-self: center;
+    width: 70%;
+    height: auto;
+}
+
+
+/* 📘 Typography */
+h1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.body-bold { 
+    font-weight:bold;
+}
+
+
+/* 🍡 UI elements */
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+
+    background: #E18580;
+    border-radius: 8px;
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    /* identical to box height, or 160% */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* 🦸‍♀️ Hero banner */
+#hero-banner {
+    background-image: url(images/Hero\ banner.png);
+    background-color: #f4f4f4;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-side {
+    float: right;
+    width: 40%;
+}
+
+/* 🧭Navigation bar */
+.nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 64px;
+    padding: 1em;
+}
+
+/* .navTab {
+
+
+} */
+
+
+/* 🍱 Spacing and layout */
+.flex-container {
+    padding-top: 3rem;
+    display: flex
+    /*  flex-wrap: wrap;*/
+}
+
+.flex-item {
+margin-right: 3rem;
+padding-bottom: 3rem;
+padding-right: 0rem;
+}
+
+.inline-images {
+margin-right: 3rem;
+}
