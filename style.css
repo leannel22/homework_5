@@ -35,6 +35,12 @@ img {
     height: auto;
 }
 
+hr {
+    margin: 3rem 0rem;
+    background-color: #909090;
+    height: 1px;
+}
+
 
 /* 📘 Typography */
 h1 {
@@ -46,9 +52,32 @@ h1 {
     /* identical to box height */
     letter-spacing: 0.03em;
 }
+h2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+a {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins, sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px; /* or 160% */
+    letter-spacing: 0.03em;
+}
 
 .body-bold { 
     font-weight:bold;
+    margin-bottom: 8px;
 }
 
 .secondary {
@@ -57,6 +86,17 @@ h1 {
 
 .link {
     color:#E18580;
+}
+
+.dropdown-label {
+    font-family: Poppins, sans-serif;
+    color: #909090;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    margin: 0px;
 }
 
 
@@ -81,6 +121,63 @@ h1 {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.input {
+    margin-top: 1em;
+}
+
+.dropdown-contents {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border-color: #909090;
+    cursor: pointer;
+    width: 20%;
+    text-align: left;
+    /* margin-top: 1.5em; */
+
+    display: flex;
+    justify-content: space-between;
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px; /* or 160% */
+    letter-spacing: 0.03em;
+}
+
+.text-area-format {
+    border-color: #909090;
+    border-radius: 8px;
+    padding: 4px 8px;
+    border-width: 2px;
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px; /* or 160% */
+    letter-spacing: 0.03em;
+}
+
+
+/* Specific dropdown IDs */
+#glaze_dropdown {
+    width: 16em;
+}
+
+#count_dropdown {
+    width: 10em;
+}
+
+#add-cart-button {
+    float: right;
+    margin-right: 0px;
 }
 
 /* 🦸‍♀️ Hero banner */
@@ -116,6 +213,10 @@ h1 {
     max-width: 24px;
 }
 
+.icon-smaller {
+    max-width: 16px;
+}
+
 .nav-tab {
     justify-content: space-between;
     flex-direction: row;
@@ -135,6 +236,7 @@ h1 {
 
 .flex-container-nomargin {
     display: flex;
+    align-items: center;
 }
 
 .flex-item {
